@@ -1,0 +1,16 @@
+
+git init
+git branch -M main
+echo "# myTrack" > README.md
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# Xcode/Swift
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.moved-aside
+
